@@ -1,0 +1,72 @@
+.align__item--start {
+  align-self: flex-start;
+}
+.align__item--end {
+  align-self: flex-end;
+}
+.site__logo {
+  margin-bottom: 2rem;
+}
+input {
+  border: 0;
+  font: inherit;
+}
+input::placeholder {
+  color: #7e8ba3;
+}
+.form__field {
+  margin-bottom: 1rem;
+}
+.form input {
+  outline: 0;
+  padding: 0.5rem 1rem;
+}
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+}
+.grid {
+  margin: 0 auto;
+  max-width: 25rem;
+  width: 100%;
+  padding: 45px 0;
+}
+h2 {
+  font-size: 2.3rem;
+  font-weight: 100;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+  padding: 20px;
+}
+svg {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+a {
+  color: #7e8ba3;
+}
+.register {
+  box-shadow: 0 0 5px #989898;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+}
+.register input {
+  border: 1px solid #b7b8ba;
+  border-radius: 999px;
+  background-color: transparent;
+  color: rgb(48, 48, 48);
+}
+.register input[type="text"],
+.register input[type="password"] {
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: 1rem 50%;
+}
+.register input[type="submit"] {
+  background-image: linear-gradient(160deg, #ffffff 0%, #000000 100%);
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}
